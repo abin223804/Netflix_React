@@ -1,4 +1,5 @@
 import React from 'react'
+import './Banner.css'
 
 const Banner = () => {
   return (
@@ -11,9 +12,12 @@ const Banner = () => {
 
             </div>
             <h1 className='description'>
-            Using Lorem ipsum to focus attention on graphic elements in a webpage design proposal · One of the
+            Using Lorem ipsum to focus attention on graphic elements in a webpage design
             </h1>
 
+        </div>
+        <div className="fade_bottom">
+           
         </div>
       
     </div>
