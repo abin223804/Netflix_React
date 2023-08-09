@@ -1,7 +1,18 @@
 import React from 'react'
 import './Banner.css'
+import { useEffect } from 'react'
 
 const Banner = () => {
+useEffect(() => {
+  first
+
+  return () => {
+    second
+  }
+}, [])
+
+
+
   return (
     <div className='banner'>
         <div className='content'>
