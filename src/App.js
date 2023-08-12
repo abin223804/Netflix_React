@@ -11,7 +11,9 @@ function App() {
    
    <NavBar/>
    <Banner/>
-   <Rowpost/>
+   <Rowpost title='Netflix Originals'/>
+   <Rowpost title='Action' isSmall/>
+   
 
    </div>
   );
