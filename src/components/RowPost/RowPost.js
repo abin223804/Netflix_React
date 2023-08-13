@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react'
 import './RowPost.css'
 import {imageUrl} from '../../constants/constants'
 import axios from '../../constants/axios'
+import Youtube from 'react-youtube';
 
 function Rowpost(props) {
 const [movies, setMovies] = useState([])
@@ -18,6 +19,14 @@ useEffect(() => {
  
 }, [])
 
+const opts= {
+  height: '390',
+  width: '640',
+  playerVars: {
+    
+    autoplay: 0,
+  },
+};
 
 
 
@@ -33,6 +42,7 @@ useEffect(() => {
        
         
       </div>
+      <Youtube opts={opts} videoId='2g811Eo7K8U'/>
     </div>
   )
 }
