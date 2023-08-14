@@ -26,7 +26,7 @@ const opts= {
   width: '100%',
   playerVars: {
     
-    autoplay: 0,
+    autoplay: 1,
   },
 };
 
