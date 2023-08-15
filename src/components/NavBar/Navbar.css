@@ -23,3 +23,61 @@
     right: 20px;
     width: 30px;
 }
+
+.home{
+    font-weight: 500;
+    cursor: pointer;
+    font:bold;
+    position: fixed;
+    color: white;
+    margin-left: 150px;
+}
+.tv{
+    cursor: pointer;
+    position: fixed;
+    color: white;
+    margin-left: 300px;
+}
+.movies{
+    cursor: pointer;
+    position: fixed;
+    color: white;
+    margin-left: 450px;
+}
+.news{
+    cursor: pointer;
+    position: fixed;
+    color: white;
+    margin-left: 600px;
+}
+.mylist{
+    cursor: pointer;
+    position: fixed;
+    color: white;
+    margin-left: 750px;
+}
+.browse{
+    cursor: pointer;
+    position: fixed;
+    color: white;
+    margin-left: 900px;
+}
+
+/* styles.css */
+.search-icon {
+cursor: pointer;
+
+    margin-left: 80%;
+    font-size: 30px;
+    color: rgb(255, 255, 255); /* Example styling */
+    /* Add your desired styles here */
+  }
+  
+  .kids{
+    cursor: pointer;
+    position: fixed;
+    color: white;
+    margin-left: 1720px;
+}
+
+  
