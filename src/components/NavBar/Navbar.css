@@ -18,11 +18,7 @@
     width: 80px;
 }
 
-.avatar{
-    position: fixed;
-    right: 20px;
-    width: 30px;
-}
+
 
 .home{
     font-weight: 500;
@@ -67,7 +63,7 @@
 .search-icon {
 cursor: pointer;
 
-    margin-left: 80%;
+    margin-left: 78%;
     font-size: 30px;
     color: rgb(255, 255, 255); /* Example styling */
     /* Add your desired styles here */
@@ -80,4 +76,25 @@ cursor: pointer;
     margin-left: 1720px;
 }
 
+  .dvd{
+    cursor: pointer;
+    position: fixed;
+    color: white;
+    margin-left: 1800px;
+  }
+  .notification-icon {
+
+    font-size: 24px; 
+    color: #ffffff; 
+    margin-right: 72px;
+    cursor: pointer;
+   
+  }
   
+
+
+  .avatar{
+    position: fixed;
+    margin-left: 1920px;
+    width: 30px;
+}

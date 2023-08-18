@@ -1,8 +1,10 @@
 import React from 'react';
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch,faBellSlash } from '@fortawesome/free-solid-svg-icons';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faBell } from '@fortawesome/free-solid-svg-icons';
 
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 
 function NavBar() {
@@ -19,11 +21,27 @@ function NavBar() {
       <div className="search-icon">
       <FontAwesomeIcon icon={faSearch} className="search-icon" />
     </div>
+    <div className="notification-icon">
+      <FontAwesomeIcon icon={faBell} className="notification-icon" />
+    </div>
     
  
   <label class="kids">Kids</label>
+  <label class="dvd">DVD</label>
+ 
+   
 
+  {/* <div className='dropdown'>
+  <label for="cars"></label>
+    <select id="cars" name="cars">
+        <option value="volvo"></option>
+        <option value="saab"></option>
+        <option value="mercedes"></option>
+        <option value="audi"></option>
+    </select>
 
+  </div> */}
+ 
    
     
 
